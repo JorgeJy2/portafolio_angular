@@ -10,6 +10,7 @@ import { PortafolioItemComponent } from './pages/portafolio-item/portafolio-item
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { ItemComponent } from './pages/item/item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     PortafolioItemComponent,
     PortafolioComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
